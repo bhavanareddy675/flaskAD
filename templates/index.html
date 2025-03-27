@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar Power Prediction</title>
+</head>
+<body>
+    <h2>Solar Power Prediction</h2>
+    <form action="/predict" method="post">
+        <label for="solar_noon_dist">Solar Noon Distance:</label>
+        <input type="text" name="solar_noon_dist" required><br>
+
+        <label for="temperature">Temperature:</label>
+        <input type="text" name="temperature" required><br>
+
+        <label for="wind_dir">Wind Direction:</label>
+        <input type="text" name="wind_dir" required><br>
+
+        <label for="sky_cover">Sky Cover:</label>
+        <input type="text" name="sky_cover" required><br>
+
+        <label for="visibility">Visibility:</label>
+        <input type="text" name="visibility" required><br>
+
+        <label for="humidity">Humidity:</label>
+        <input type="text" name="humidity" required><br>
+
+        <label for="avg_wind_speed">Average Wind Speed:</label>
+        <input type="text" name="avg_wind_speed" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
